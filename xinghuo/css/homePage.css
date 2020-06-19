@@ -1,0 +1,188 @@
+/* 首页css */
+
+
+header>.nav .nav_axz {
+    color: #00cf8c;
+    border-bottom: 2px solid #00cf8c;
+}
+
+/* 轮播图 */
+.carousel {
+    width: 100%;
+    height: 400px;
+}
+
+.carousel-inner>.item {
+    height: 400px;
+    width: 100%;
+}
+
+.carousel-inner>.bg1 {
+    background: url(../images/天亮教育.jpg) center;
+}
+
+.carousel-inner>.bg2 {
+    background: url(../images/尚云科技.jpg) center;
+}
+
+.carousel-inner>.bg3 {
+    background: url(../images/第一季星火杯大赛.jpg) center;
+}
+
+/* 轮播图结束 */
+
+/* 新闻开始 */
+.journalism {
+    width: 90%;
+    margin: 30px auto;
+    padding-left: 50px;
+
+    /* border: 1px solid red; */
+}
+
+.journalism>header {
+    width: 100%;
+    margin: 20px auto;
+    /* border: 1px solid red; */
+}
+
+.journalism>section {
+    width: 100%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+section .sectionLeft {
+    float: left;
+    width: 16%;
+    font-size: 16px;
+    padding: 0 15px 0 30px;
+}
+
+section .sectionLeft ul {
+    border-right: 2px solid #efefef;
+}
+
+section .sectionLeft li {
+    height: 50px;
+    line-height: 50px;
+}
+
+section .sectionLeft li>img {
+    margin-bottom: 5px;
+    margin-right: 2px;
+}
+
+section .sectionRight {
+    width: 83%;
+    float: left;
+    padding: 0 16px;
+
+    /* border: 1px solid red; */
+}
+
+.sectionRight .box1 {
+    margin-top: 20px;
+    height: 170px;
+    border-bottom: 1px solid #ddd;
+}
+
+.sectionRight .liImg {
+    float: left;
+    width: 25%;
+}
+
+.sectionRight .liImg>img {
+    width: 100%;
+    height: 150px;
+}
+
+.sectionRight .liJs {
+    float: right;
+    width: 75%;
+    padding-left: 20px;
+}
+
+.sectionRight .liJs>a {
+    display: block;
+    font-size: 18px;
+    color: #2d8cf0;
+    padding-top: 10px;
+}
+
+.sectionRight .liJs>p {
+    margin: 30px 0;
+    color: #6f6f6f;
+    font-size: 12px;
+}
+
+.sectionRight .time>a {
+    color: #2d8cf0;
+    font-size: 12px;
+}
+
+.sectionRight .time>span {
+    font-size: 12px;
+    float: right;
+}
+
+.sectionRight .page {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.sectionRight .page li {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+/* 新闻结束 */
+
+/* qq群 */
+/* .qq {
+    position: relative;
+} */
+.qq>ul {
+    position: fixed;
+    bottom: 65px;
+    right: 20px;
+}
+
+.qq li {
+    width: 70px;
+    height: 70px;
+    color: #00cf8c;
+    text-align: center;
+    background-color: #e6f7ff;
+    margin-top: 2px;
+    position: relative;
+    padding: 5px 0 0;
+}
+.qq li>a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #00cf8c;
+}
+.qq li div {
+    display: none;
+    position: absolute;
+    top: -122px;
+    left: -280px;
+}
+
+
+
+.qq li .LIimg {
+    width: 40px;
+    height: 40px;
+}
+.qq .zwer > img {
+    width: 140px;
+    float: left;
+}
+
+/* .qq li+li:hover div {
+    display: inline-block;
+} */

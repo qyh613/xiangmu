@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/overall.css">
+    <link rel="stylesheet" href="css/personage.css">
+    <script src="lib/jQuery/jquery-3.4.1.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <title>星火创新创业服务平台</title>
+</head>
+<!-- 个人中心 -->
+
+<body>
+    <!-- 头部 -->
+    <header>
+
+        <!-- logo -->
+        <div class="logo">
+            <a href="homePage.html"><img src="images/logo.png"></a>
+        </div>
+
+        <!-- 导航 -->
+        <nav class="nav">
+            <ul class="clearFloat">
+                <li><a href="homePage.html" class="nav_a">新闻动态</a></li>
+                <li><a href="apply.html" class="nav_a">大赛报名</a></li>
+                <li><a href="http://bbs.myhope365.com/" class="nav_a" target="blank">天亮社区</a></li>
+                <li><a href="aboutUs.html" class="nav_a">关于我们</a></li>
+                <li class="navli1">
+                    <button><a href="logIn.html">登录</a></button>
+                </li>
+                <li class="navli2">
+                    <a href="personage.html" class="nav_a">个人中心</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <!-- 头部结束 -->
+
+
+
+    <!-- 中间主体 -->
+
+    <div class="mid">
+        <div class="midBox clearFloat">
+            <div class="midLeft pull-left">
+                <ul>
+                    <li class="mlLi">基本信息</li>
+                    <li id="message">参赛信息</li>
+                </ul>
+            </div>
+            <div class="midRight pull-right">
+                <div class="RightBox">
+                    <h4>基本信息</h4>
+                    <section class="fixation">
+                        <form action="">
+                            <div class="line clearFloat">
+                                <label class="pull-left">用户名：</label>
+                                <input type="text" class="pull-right" disabled="disabled" id="loginName">
+                            </div>
+                            <div class="line clearFloat">
+                                <label class="pull-left">账号类别：</label>
+                                <input type="text" class="pull-right" disabled="disabled" value="选手">
+                            </div>
+                            <div class="line clearFloat">
+                                <label class="pull-left">手机号：</label>
+                                <input type="text" class="pull-right" disabled="disabled" id="phonenumber">
+                            </div>
+                        </form>
+                    </section>
+                    <section>
+                        <form action="">
+                            <div class="line clearFloat">
+                                <label class="pull-left">姓名：</label>
+                                <input type="text" class="pull-right" id="userName">
+                            </div>
+                            <div class="line clearFloat">
+                                <label class="pull-left">身份证号：</label>
+                                <input type="text" class="pull-right" id="idNumber">
+                            </div>
+                            <div class="line clearFloat">
+                                <label class="pull-left">邮箱：</label>
+                                <input type="text" class="pull-right" id="email">
+                            </div>
+                            <div class="line clearFloat">
+                                <label class="pull-left">学校：</label>
+                                <input type="text" class="pull-right" value="哈哈" id="school">
+                            </div>
+                            <div class="line clearFloat">
+                                <label class="pull-left">专业：</label>
+                                <input type="text" class="pull-right" value="计算机" id="profession">
+                            </div>
+                            <div class="line clearFloat">
+                                <label class="pull-left">年级：</label>
+                                <input type="text" class="pull-right" value="1班" id="grade">
+                            </div>
+                            <div class="quitBox">
+                                <button type="button" class="update">更新信息</button>
+                                <button type="button" class="quit" id="quitBtn">退出登录</button>
+                            </div>
+                        </form>
+                    </section>
+                </div>
+                <!-- 参赛信息 -->
+                <div class="RightBox1" style="display: none;">
+                    <h4>暂无参赛信息</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <footer>
+        <div>
+            <div class="footerLeft">
+                <div class="footBox">
+                    友情链接：
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+
+                <p id="copyright"></p>
+                <p id="tgbh"></p>
+            </div>
+            <div class="footerRight">
+                <img src="images/微信公众号.jpg" alt="微信公众号">
+                <p>微信公众号</p>
+            </div>
+        </div>
+    </footer>
+    <!-- 底部结束 -->
+</body>
+<script src="js/personage.js"></script>
+
+</html>

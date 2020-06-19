@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/overall.css">
+    <link rel="stylesheet" href="css/apply.css">
+    <script src="lib/jQuery/jquery-3.4.1.js"></script>
+    <title>星火创新创业服务平台</title>
+</head>
+<!-- 大赛报名 -->
+
+<body>
+    <!-- 头部 -->
+    <header>
+
+        <!-- logo -->
+        <div class="logo">
+            <a href="homePage.html"><img src="images/logo.png"></a>
+        </div>
+
+        <!-- 导航 -->
+        <nav class="nav">
+            <ul class="clearFloat">
+                <li><a href="homePage.html" class="nav_a">新闻动态</a></li>
+                <li><a href="#" class="nav_axz">大赛报名</a></li>
+                <li><a href="http://bbs.myhope365.com/" class="nav_a" target="blank">天亮社区</a></li>
+                <li><a href="aboutUs.html" class="nav_a">关于我们</a></li>
+                <li class="navli1">
+                    <button><a href="logIn.html">登录</a></button>
+                </li>
+                <li class="navli2">
+                    <a href="personage.html" class="nav_a">个人中心</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <!-- 头部结束 -->
+
+    <!-- 背景 -->
+    <div class="backGround">
+    </div>
+
+
+
+    <div class="mid">
+        <img src="images/2.jpg" alt="大赛报名">
+        <!-- 大赛新闻 显示 -->
+        <div class="midBox1">
+            <h3></h3>
+            <div class="select">
+                <!-- <div class="show"> -->
+                <select class="show">
+                    <!-- <option>请选择</option> -->
+                    <option>星火杯创新创业大赛</option>
+                </select>
+
+                <!-- </div> -->
+            </div>
+            <p>
+                <!-- 天亮教育作为发起首支基金即星火基金的运营方，也是本次星火杯双创比赛的组织承办方，旨在围绕应用创新类、营销创意类、技术创新类、文创艺术类为主的四大方向为中心，诚邀石家庄及全国各地的高校大学生、相关领域专家和企业踊跃向本次大赛投稿，我方会本着"激活双创之心，打出双创之星，共享双创实惠"的初心，坚持公平、公正、公开的原则，
+                打造好平台，营造好氛围，赛出好结果的三好开篇大赛。 -->
+            </p>
+            <div class="apply">
+                <span>我要报名</span>
+            </div>
+            <div>
+                <span id="notice">报名须知</span>
+            </div>
+        </div>
+
+        <!-- 报名须知点击显示 -->
+        <div class="midBox2">
+            <div><span id="return">返回上一页</span></div>
+            <h4>大赛报名</h4>
+            <ul>
+                <li>
+                    <h5>1、参赛条件</h5>
+                    <p> 由来自高校、企业、科研院所、技术专家、从事创新创业及其服务的其他事业单位、新型研发机构等单位的人员所组成的团队可选择相应专项赛事进行报名、参赛。报名参赛不收取任何费用。</p>
+                </li>
+                <li>
+                    <h5>2、比赛内容</h5>
+                    <p> 符合既定的四个主题方向即可，具体形式可以是PPT、实物效果演示等具备可评估性、可量化、可对比的均可。</p>
+                </li>
+                <li>
+                    <h5>3、竞赛形式</h5>
+                    <p> 比赛形式为专家线上初评、线下路演后专家打分相结合，最终由路演后选手项目PPT演示得分、专家问辩评分组成总分。</p>
+                </li>
+                <li>
+                    <h5>4、比赛流程</h5>
+                    <p> 项目报名后通过形式审查进入初赛，初赛由专家组成员汇审进行线上评分，成绩合格进入决赛，决赛评选一二三等奖及优胜参与奖。</p>
+                </li>
+                <li>
+                    <h5>5、奖项设置</h5>
+                    <p> 大赛设一等奖、二等奖、三等奖及优胜参与奖，占项目总数比率为10%、20%、30%、40%。</p>
+                </li>
+                <li>
+                    <h5>6、其他</h5>
+                    <p> 推荐多了解天亮教育的课程体系，并进行认真的学习和实践，对于参加技术性内容比赛会很有帮助。</p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 我要报名 -->
+        <form class="midBox3" required action="user" method="post" target="iframe">
+            <div class="return"><span>返回上一页</span></div>
+            <h4>大赛报名</h4>
+            <div>
+                <h5>项目名称</h5>
+                <div class="bmBox1 clearFloat">
+                    <div class="information pull-left">
+                        <span>作品名称：</span>
+                        <input class="ivu-input" type="text" placeholder="请输入作品名称(30字以内)" required maxlength="30"
+                            id="worksTitle">
+                    </div>
+                    <div class="information pull-right">
+                        <span>作品方向：</span>
+                        <!-- <div class="shift">营销创意类</div> -->
+                        <select class="shift" id="projectCategory">
+                            <option>营销创意类</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h5>项目介绍信息</h5>
+                <div class="bmBox1 clearFloat">
+                    <div class="information pull-left">
+                        <span>所属行业：</span>
+                        <input class="ivu-input" type="text" placeholder="请输入所属行业(30字以内)" required maxlength="30"
+                            id="industry">
+                    </div>
+                    <div class="information pull-left">
+                        <span>指导老师：</span>
+                        <input class="ivu-input" type="text" placeholder="请输入指导老师(30字以内)" required maxlength="30"
+                            id="instructor">
+                    </div>
+                </div>
+                <div class="bmBox1 xd">
+                    <span>主要创新点：</span>
+                    <textarea maxlength="300" placeholder="请输入主要创新点(300字以内)" required id="innovationPoint"></textarea>
+                </div>
+                <div class="bmBox1 jz">
+                    <span>推广应用价值： </span>
+                    <textarea maxlength="250" placeholder="请输入推广应用价值(250字以内)" required id="applicationWhere"></textarea>
+                </div>
+                <div class="bmBox1 jj">
+                    <span>作品简介：</span>
+                    <textarea maxlength="500" placeholder="请输入作品简介（800字内）" required id="worksBrief"></textarea>
+                </div>
+                <div class="bmBox1 clearFloat">
+                    <span class="pull-left">附件上传： </span>
+                    <div class="select pull-left">
+                        <input type="file" id="inputfile">
+                    </div>
+                </div>
+            </div>
+            <!-- 参赛者 -->
+            <div>
+                <h5>参赛者</h5>
+                <div class="name">参赛者（1）：</div>
+                <div class="bmBox1 clearFloat">
+                    <div class="information pull-left">
+                        <span>姓名：</span>
+                        <input class="ivu-input" type="text" placeholder="请输入姓名" required id="name1">
+                    </div>
+                    <div class="information pull-left">
+                        <span>职务：</span>
+                        <input class="ivu-input" type="text" placeholder="请输入职务" required id="job1">
+                    </div>
+                </div>
+                <div class="bmBox1 clearFloat">
+                    <div class="information pull-left">
+                        <span>性别：</span>
+                        <select id="gender1">
+                            <option>男</option>
+                            <option>女</option>
+                        </select>
+                    </div>
+                    <div class="information pull-left">
+                        <span>年龄：</span>
+                        <input class="ivu-input" type="number" placeholder="请输入年龄" max="100" min="18" required
+                            id="age1">
+                    </div>
+                </div>
+                <div class="bmBox1 clearFloat">
+                    <div class="information pull-left margin-dh">
+                        <span>联系电话：</span>
+                        <input class="ivu-input" type="text" placeholder="请输入电话" required id="phoneNumber1">
+                    </div>
+                    <div class="information pull-left">
+                        <span>身份证号：</span>
+                        <input class="ivu-input" type="text" placeholder="请输入身份证号" required id="idNumber1">
+                    </div>
+                </div>
+
+            </div>
+            <!-- 参赛者（2） -->
+            <div>
+                <h5>参赛者</h5>
+                <div class="name">参赛者（2）：</div>
+                <div class="bmBox1 clearFloat">
+                    <div class="information pull-left">
+                        <span>姓名：</span>
+                        <input class="ivu-input" type="text" placeholder="请输入姓名" required id="name2">
+                    </div>
+                    <div class="information pull-left">
+                        <span>职务：</span>
+                        <input class="ivu-input" type="text" placeholder="请输入职务" required id="job2">
+                    </div>
+                </div>
+                <div class="bmBox1 clearFloat">
+                    <div class="information pull-left">
+                        <span>性别：</span>
+                        <select id="gender2">
+                            <option>男</option>
+                            <option>女</option>
+                        </select>
+                    </div>
+                    <div class="information pull-left">
+                        <span>年龄：</span>
+                        <input class="ivu-input" type="number" placeholder="请输入年龄" max="100" min="18" required
+                            id="age2">
+                    </div>
+                </div>
+                <div class="bmBox1 clearFloat">
+                    <div class="information pull-left margin-dh">
+                        <span>联系电话：</span>
+                        <input class="ivu-input" type="text" placeholder="请输入电话" required id="phoneNumber2">
+                    </div>
+                    <div class="information pull-left">
+                        <span>身份证号：</span>
+                        <input class="ivu-input" type="text" placeholder="请输入身份证号" required id="idNumber2">
+                    </div>
+                </div>
+
+            </div>
+            <!-- 参赛者（3） -->
+            <div>
+                <h5>参赛者</h5>
+                <div class="name">参赛者（3）：</div>
+                <div class="bmBox1 clearFloat">
+                    <div class="information pull-left">
+                        <span>姓名：</span>
+                        <input class="ivu-input" type="text" placeholder="请输入姓名" required
+                            pattern="^[\u4E00-\u9FA5\uf900-\ufa2d·s]{2,20}$" id="name3">
+                    </div>
+                    <div class="information pull-left">
+                        <span>职务：</span>
+                        <input class="ivu-input" type="text" placeholder="请输入职务" required
+                            pattern="^[\u4E00-\u9FA5\uf900-\ufa2d·s]{2,20}$" id="job3">
+                    </div>
+                </div>
+                <div class="bmBox1 clearFloat">
+                    <div class="information pull-left">
+                        <span>性别：</span>
+
+                        <select id="gender3">
+                            <option>男</option>
+                            <option>女</option>
+                        </select>
+                    </div>
+                    <div class="information pull-left">
+                        <span>年龄：</span>
+                        <input class="ivu-input" type="number" placeholder="请输入年龄" max="100" min="18" required
+                            id="age3">
+                    </div>
+                </div>
+                <div class="bmBox1 clearFloat">
+                    <div class="information pull-left margin-dh">
+                        <span>联系电话：</span>
+                        <input class="ivu-input" type="text" placeholder="请输入电话" required
+                            pattern="^((13[0-9])|(14[5,7,9])|(15[^4])|(18[0-9])|(17[0,1,3,5,6,7,8]))\d{8}$"
+                            id="phoneNumber3">
+                    </div>
+                    <div class="information pull-left">
+                        <span>身份证号：</span>
+                        <input class="ivu-input" type="text" placeholder="请输入身份证号" required
+                            pattern="^[1-9]\d{5}(18|19|([23]\d))\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])|10|20|30|31)\d{3}[0-9Xx]$"
+                            id="idNumber3">
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- 提交重置按钮 -->
+            <div class="resetBox">
+                <button type="reset" class="reset">重置</button>
+                <!-- <button class="submit" type="button">提交</button> -->
+                <button class="submit">提交</button>
+            </div>
+        </form>
+        <iframe id="iframe" name="iframe" style="display:none;"></iframe>
+    </div>
+
+    <!-- 底部 -->
+    <footer>
+        <div>
+            <div class="footerLeft">
+                <div class="footBox">
+                    友情链接：
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+
+                <p id="copyright"></p>
+                <p id="tgbh"></p>
+            </div>
+            <div class="footerRight">
+                <img src="images/微信公众号.jpg" alt="微信公众号">
+                <p>微信公众号</p>
+            </div>
+        </div>
+    </footer>
+    <!-- 底部结束 -->
+</body>
+<script src="js/apply.js"></script>
+
+</html>

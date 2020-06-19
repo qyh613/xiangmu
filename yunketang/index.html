@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="lib/swiper/package/css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="lib/jQuery/jquery-3.4.1.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/swiper/package/js/swiper.min.js"></script>
+    <script src="font/iconfont.js"></script>
+    <title>天亮云课堂</title>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header class="container">
+        <!-- 顶部 -->
+        <div class="row top">
+            <div class="logo col-xs-3">
+                <img src="images/logo.png" alt="天亮logo">
+            </div>
+            <div class="search col-xs-6 hidden-xs">
+                <input type="text" placeholder="搜索课程" id="searchSS">
+                <button id="searchBtn">
+
+                    <span class="glyphicon glyphicon-search"></span>
+
+                    搜索
+
+                </button>
+            </div>
+            <div class="col-xs-3 logIn hidden-xs">
+
+                <span class="shopping">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-gouwuche"></use>
+                    </svg>
+                </span>
+                <span class="loginbtn">登录/注册</span>
+                <span class="user">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-yonghufangkeshu-copy"></use>
+                    </svg>
+                </span>
+
+            </div>
+        </div>
+        <!-- 导航 -->
+        <div class="row nav">
+            <ul>
+                <li class="pull-left one"><a href="#">首页</a></li>
+                <li class="pull-left two" id="lessonClassify"><a href="#">课程分类
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-arrow-right"></use>
+                        </svg>
+                    </a>
+                    <!-- <ul class="classify">
+                        <li><a href="#">留学韩国专题</a></li>
+                        <li><a href="#">学长面对面</a></li>
+                        <li><a href="#">职业素养必修课</a></li>
+                        <li><a href="#">大数据</a></li>
+                        <li><a href="#">WEB前段</a></li>
+                        <li><a href="#">数据库</a></li>
+                        <li><a href="#">网络爬虫</a></li>
+                        <li><a href="#">求职技巧</a></li>
+                        <li><a href="#">项目实战</a></li>
+                        <li><a href="#">公共常用开发技术</a></li>
+                        <li><a href="#">经典面试题</a></li>
+                        <li><a href="#">JavaSe核心基础</a></li>
+                        <li><a href="#">操作系统</a></li>
+                        <li><a href="#">毕业设计</a></li>
+                        <li><a href="#">数据结构与算法</a></li>
+                        <li><a href="#">创新创业</a></li>
+                        <li><a href="#">快速玩转热门应用</a></li>
+                    </ul> -->
+                </li>
+                <li class="pull-left"><a href="#">专属课程</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- 轮播图 -->
+    <div class="slideshow">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide swiper1 lbImg"></div>
+                <div class="swiper-slide swiper2 lbImg"></div>
+                <div class="swiper-slide swiper3 lbImg"></div>
+                <div class="swiper-slide swiper4 lbImg"></div>
+                <div class="swiper-slide swiper5 lbImg"></div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+            <!-- 导航按钮 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+
+
+
+    <!-- 直播 -->
+    <div class="liveBroadcast container">
+        <div class="row">
+            <h3 class="text-center bt">直播课程</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 box_left">
+                <img src="images/直播1.png">
+                <img src="images/直播2.jpg" style="display: none;">
+                <img src="images/直播3.png" style="display: none;">
+                <img src="images/直播4.png" style="display: none;">
+
+
+                <div class="shade">
+                    <div class="bt">研究生复试之高效准备简历的方法</div>
+                    <div class="state">
+                        <span>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-duigou1"></use>
+                            </svg>&nbsp;&nbsp;直播结束</span>
+                    </div>
+                    <button>直播结束</button>
+                </div>
+                <div class="shade" style="display: none;">
+                    <div class="bt">十大经典排序之Part-6-完结篇</div>
+                    <div class="state">
+                        <span>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-duigou1"></use>
+                            </svg>&nbsp;&nbsp;直播结束</span>
+                    </div>
+                    <button>直播结束</button>
+                </div>
+                <div class="shade" style="display: none;">
+                    <div class="bt">jdk1.8-新特性之函数式接口与方法引用</div>
+                    <div class="state">
+                        <span>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-duigou1"></use>
+                            </svg>&nbsp;&nbsp;直播结束</span>
+                    </div>
+                    <button>直播结束</button>
+                </div>
+                <div class="shade" style="display: none;">
+                    <div class="bt">高考之殇与痛则思变</div>
+                    <div class="state">
+                        <span>
+                            <svg class="icon" aria-hidden="true">
+                                <use xlink:href="#icon-bofang2"></use>
+                            </svg>&nbsp;&nbsp;尚未开播</span>
+                    </div>
+                    <button>尚未开播</button>
+                </div>
+            </div>
+            <div class="col-lg-6 box_right">
+                <ul>
+                    <li class="active">
+                        <svg class="icon tb" aria-hidden="true">
+                            <use xlink:href="#icon-selected"></use>
+                        </svg>
+                        <span>直播结束</span>
+                        <span class="title">研究生复试之高效准备简历的方法</span>
+                    </li>
+                    <li>
+                        <svg class="icon tb" aria-hidden="true">
+                            <use xlink:href="#icon-selected"></use>
+                        </svg>
+                        <span>直播结束</span>
+                        <span class="title">十大经典排序之Part-6-完结篇</span>
+                    </li>
+                    <li>
+                        <svg class="icon tb" aria-hidden="true">
+                            <use xlink:href="#icon-selected"></use>
+                        </svg>
+                        <span>直播结束</span>
+                        <span class="title">jdk1.8-新特性之函数式接口与方法引用</span>
+                    </li>
+                    <li>
+                        <svg class="icon tb" aria-hidden="true">
+                            <use xlink:href="#icon-selected"></use>
+                        </svg>
+                        <span>直播结束</span>
+                        <span class="title">高考之殇与痛则思变</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- 中间主体 -->
+    <div class="mid container">
+        <!-- 免费课程 -->
+        <div class="clearfix row Boutique">
+            <div class="clearfix zgts">
+                <h3 class="text-center pull-left">免费课程</h3>
+                <span class="more pull-right text-right">
+                    <a href="./搜索页.html">更多
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-icon-"></use>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+            <ul class="clearfix commodityUl">
+                <li class="commodityLi">
+                    <a href="#">
+                        <div class="imgBox">
+                            <!-- <img src="images/免费1.jpg"> -->
+                            <img src="">
+                        </div>
+                        <p class="bt"></p>
+                        <p class="course">共<span class="festival"></span>节课 | <span class="person"></span>人报名</p>
+                        <p class="free">免费</p>
+                    </a>
+                </li>
+                <li class="commodityLi">
+                    <a href="#">
+                        <div class="imgBox">
+                            <!-- <img src="images/免费2.png"> -->
+                            <img src="">
+                        </div>
+                        <p class="bt"> web前端基础之html+css </p>
+                        <p class="course">共<span class="festival"> 56 </span>节课 | <span class="person"></span> 人报名</p>
+                        <p class="free">免费</p>
+                    </a>
+                </li>
+                <li class="commodityLi">
+                    <a href="#">
+                        <div class="imgBox">
+                            <!-- <img src="images/免费3.png"> -->
+                            <img src="">
+                        </div>
+                        <p class="bt"> 国际经济法 </p>
+                        <p class="course">共<span class="festival"></span>节课 | <span class="person"></span> 人报名</p>
+                        <p class="free">免费</p>
+                    </a>
+                </li>
+                <li class="commodityLi">
+                    <a href="#">
+                        <div class="imgBox">
+                            <!-- <img src="images/免费4.png"> -->
+                            <img src="">
+                        </div>
+                        <p class="bt"> 论文指导 </p>
+                        <p class="course">共<span class="festival"></span>节课 | <span class="person"></span> 人报名</p>
+                        <p class="free">免费</p>
+                    </a>
+                </li>
+                <li class="commodityLi">
+                    <a href="#">
+                        <div class="imgBox">
+                            <!-- <img src="images/免费5.png"> -->
+                            <img src="">
+                        </div>
+                        <p class="bt"> 快速通过雅思英语考试 </p>
+                        <p class="course">共<span class="festival"></span>节课 | <span class="person"></span> 人报名</p>
+                        <p class="free">免费</p>
+                    </a>
+                </li>
+                <li class="commodityLi">
+                    <a href="#">
+                        <div class="imgBox">
+                            <!-- <img src="images/免费6.png"> -->
+                            <img src="">
+                        </div>
+                        <p class="bt"> 韩国文化产业论 </p>
+                        <p class="course">共<span class="festival"></span>节课 | <span class="person"></span> 人报名</p>
+                        <p class="free">免费</p>
+                    </a>
+                </li>
+                <li class="commodityLi">
+                    <a href="#">
+                        <div class="imgBox">
+                            <!-- <img src="images/免费7.png"> -->
+                            <img src="">
+                        </div>
+                        <p class="bt"> 从0到1流利说韩语 </p>
+                        <p class="course">共<span class="festival"></span>节课 | <span class="person"></span> 人报名</p>
+                        <p class="free">免费</p>
+                    </a>
+                </li>
+                <li class="commodityLi">
+                    <a href="#">
+                        <div class="imgBox">
+                            <!-- <img src="images/免费8.png"> -->
+                            <img src="">
+                        </div>
+                        <p class="bt"> 职业素养必修课 </p>
+                        <p class="course">共<span class="festival"></span>节课 | <span class="person"></span> 人报名</p>
+                        <p class="free">免费</p>
+                    </a>
+                </li>
+                <li class="commodityLi">
+                    <a href="#">
+                        <div class="imgBox">
+                            <!-- <img src="images/免费9.png"> -->
+                            <img src="">
+                        </div>
+                        <p class="bt"> 学长面对面系列精品课 </p>
+                        <p class="course">共<span class="festival"></span>节课 | <span class="person"></span> 人报名</p>
+                        <p class="free">免费</p>
+                    </a>
+                </li>
+                <li class="commodityLi">
+                    <a href="#">
+                        <div class="imgBox">
+                            <!-- <img src="images/免费10.png"> -->
+                            <img src="">
+                        </div>
+                        <p class="bt"> JavaSe核心基础-v就业班 </p>
+                        <p class="course">共<span class="festival"></span>节课 | <span class="person"></span> 人报名</p>
+                        <p class="free">免费</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 精品课 -->
+        <div class="clearfix row Boutique">
+
+            <div class="clearfix zgts">
+                <h3 class="text-center pull-left">精品课程</h3>
+                <span class="more pull-right text-right">
+                    <a href="./搜索页.html">更多
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-icon-"></use>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+            <ul class="clearfix commodityUl">
+                <li class="commodityLi">
+                    <a href="#">
+                        <div class="imgBox">
+                            <!-- <img src="images/精品1.png" class="img1"> -->
+                            <img src="" class="img1">
+                        </div>
+                        <p class="bt"> 毕设从小白到老司机修成记 </p>
+                        <p class="course">共<span class="festival"></span>节课 | <span class="person"></span> 人报名</p>
+                        <p class="charge">
+                            ￥99.9 <del> ￥&nbsp;800</del>
+                        </p>
+                        <div class="xsjh pull-right">限时钜惠</div>
+                    </a>
+                </li>
+                <li class="commodityLi">
+                    <a href="#">
+                        <div class="imgBox">
+                            <!-- <img src="images/精品2.jpg"> -->
+                            <img src="">
+                        </div>
+                        <p class="bt"> 求职成功之道与术 </p>
+                        <p class="course">共<span class="festival"></span>节课 | <span class="person"></span> 人报名</p>
+                        <p class="charge">
+                            ￥99.9 <del> ￥&nbsp;800</del>
+                        </p>
+                        <div class="xsjh pull-right">限时钜惠</div>
+                    </a>
+                </li>
+                <li class="commodityLi">
+                    <a href="#">
+                        <div class="imgBox">
+                            <!-- <img src="images/精品3.jpg"> -->
+                            <img src="">
+                        </div>
+                        <p class="bt">vue全家桶从入门到实战</p>
+                        <p class="course">共<span class="festival"></span>节课 | <span class="person"></span> 人报名</p>
+                        <p class="free">免费</p>
+                    </a>
+                </li>
+                <li class="commodityLi">
+                    <a href="#">
+                        <div class="imgBox">
+                            <!-- <img src="images/精品4.jpg"> -->
+                            <img src="">
+                        </div>
+                        <p class="bt"> 数据结构与算法基础篇 </p>
+                        <p class="course">共<span class="festival"></span>节课 | <span class="person"></span> 人报名</p>
+                        <p class="charge">
+                            ￥49.9 <del> ￥&nbsp;800</del>
+                        </p>
+                        <div class="xsjh pull-right">限时钜惠</div>
+                    </a>
+                </li>
+                <li class="commodityLi">
+                    <a href="#">
+                        <div class="imgBox">
+                            <!-- <img src="images/精品5.png"> -->
+                            <img src="">
+                        </div>
+                        <p class="bt"> web前端基础之html+css </p>
+                        <p class="course">共<span class="festival"></span>节课 | <span class="person"></span> 人报名</p>
+                        <p class="free">免费</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 限时折扣课成 -->
+        <div class="clearfix row Boutique">
+
+            <div class="clearfix zgts">
+                <h3 class="text-center pull-left">限时折扣课程</h3>
+                <span class="more pull-right text-right">
+                    <a href="./搜索页.html">更多
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-icon-"></use>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+            <ul class="clearfix commodityUl">
+                <li class="commodityLi">
+                    <a href="#">
+                        <div class="imgBox">
+                            <!-- <img src="images/精品1.png" class="img1"> -->
+                            <img src="" class="img1">
+                        </div>
+                        <p class="bt">毕设从小白到老司机修成记</p>
+                        <p class="course">共<span> 66 </span>节课 | <span>196</span> 人报名</p>
+                        <p class="charge">
+                            ￥99.9 <del> ￥&nbsp;800</del>
+                        </p>
+                        <div class="xsjh pull-right">限时钜惠</div>
+                    </a>
+                </li>
+                <li class="commodityLi">
+                    <a href="#">
+                        <div class="imgBox">
+                            <!-- <img src="images/精品2.jpg"> -->
+                            <img src="">
+                        </div>
+                        <p class="bt">求职成功之道与术</p>
+                        <p class="course">共<span> 153 </span>节课 | <span>73</span> 人报名</p>
+                        <p class="charge">
+                            ￥99.9 <del> ￥&nbsp;800</del>
+                        </p>
+                        <div class="xsjh pull-right">限时钜惠</div>
+
+                    </a>
+                </li>
+                <li class="commodityLi">
+                    <a href="#">
+                        <div class="imgBox">
+                            <!-- <img src="images/精品4.jpg"> -->
+                            <img src="">
+                        </div>
+                        <p class="bt">数据结构与算法基础篇</p>
+                        <p class="course">共<span> 86 </span>节课 | <span>41</span> 人报名</p>
+                        <p class="charge">
+                            ￥49.9 <del> ￥&nbsp;800</del>
+                        </p>
+                        <div class="xsjh pull-right">限时钜惠</div>
+
+                    </a>
+                </li>
+                <li class="commodityLi">
+                    <a href="#">
+                        <div class="imgBox">
+                            <!-- <img src="images/限时1.png"> -->
+                            <img src="">
+                        </div>
+                        <p class="bt"> 520-用代码征服另一半 </p>
+                        <p class="course">共<span> 5 </span>节课 | <span>16</span> 人报名</p>
+                        <p class="charge">
+                            ￥1 <del> ￥&nbsp;800</del>
+                        </p>
+                        <div class="xsjh pull-right">限时钜惠</div>
+
+                    </a>
+                </li>
+                <li class="commodityLi">
+                    <a href="#">
+                        <div class="imgBox">
+                            <img src="images/限时2.jpg">
+                        </div>
+                        <p class="bt"> hadoopcore从入门到实战 </p>
+                        <p class="course">共<span> 44 </span>节课 | <span>106</span> 人报名</p>
+                        <p class="charge">
+                            ￥99.9 <del> ￥&nbsp;1000</del>
+                        </p>
+                        <div class="xsjh pull-right">限时钜惠</div>
+
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- 头条精选 -->
+        <div class="clearfix row Boutique">
+            <div class="clearfix zgts">
+                <h3 class="text-center">头条精选</h3>
+                <span class="more pull-right text-right">
+                    <a href="./搜索页.html">更多
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-icon-"></use>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+            <ul class="clearfix">
+                <li>
+                    <a href="#">
+                        <div class="imgBox">
+                            <img src="images/头条1.jpg">
+                        </div>
+                        <p class="bt">小米集团-科大16级韩同学成长经历分享</p>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="imgBox">
+                            <img src="images/头条1.jpg">
+                        </div>
+                        <p class="bt">米联科技-科大16级郭同学成长经历分享</p>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="imgBox">
+                            <img src="images/头条1.jpg">
+                        </div>
+                        <p class="bt">万向思维-科大16级支同学成长经历分享</p>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="imgBox">
+                            <img src="images/头条1.jpg">
+                        </div>
+                        <p class="bt">尚云科技-科大15级王同学成长经历分享2</p>
+
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="imgBox">
+                            <img src="images/头条1.jpg">
+                        </div>
+                        <p class="bt">尚云科技-科大15级蒙同学成长经历分享</p>
+
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+    <!-- 底部 -->
+    <footer>
+        <div class="container">
+            <h2>友情链接</h2>
+            <div class="link">
+                <!-- <a href="#">星云大数据平台</a>
+                <a href="#">尚云科技</a>
+                <a href="#">IT毕业设计</a>
+                <a href="#">网思安网络安全课堂</a>
+                <a href="#">天亮公开课资源</a> -->
+                <a href="#" target="blank"></a>
+                <a href="#" target="blank"></a>
+                <a href="#" target="blank"></a>
+                <a href="#" target="blank"></a>
+                <a href="#" target="blank"></a>
+            </div>
+            <hr />
+            <p class="text-center">Copyright © 2017-2025 石家庄天亮教育科技有限公司 备案号:冀ICP备17020003号</p>
+        </div>
+    </footer>
+
+
+    <!-- 固定定位 -->
+    <div class="qq text-center">
+        <ul>
+            <li><a href="#" class="a1">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-QQ"></use>
+                    </svg>
+                    <p>客服1</p>
+                </a></li>
+            <li><a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-QQ"></use>
+                    </svg>
+                    <p>客服2</p>
+                </a></li>
+            <li><a href="#" class="a3">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-QQ"></use>
+                    </svg>
+                    <p>技术支持</p>
+                </a></li>
+        </ul>
+    </div>
+</body>
+<script src="js/index.js"></script>
+
+</html>

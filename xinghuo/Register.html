@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/overall.css">
+    <link rel="stylesheet" href="css/Register.css">
+    <script src="lib/jQuery/jquery-3.4.1.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <title>星火创新创业服务平台</title>
+</head>
+<!-- 注册页 -->
+
+<body>
+    <!-- 头部 -->
+    <header>
+
+        <!-- logo -->
+        <div class="logo">
+            <a href="homePage.html"><img src="images/logo.png"></a>
+        </div>
+
+        <!-- 导航 -->
+        <nav class="nav">
+            <ul class="clearFloat">
+                <li><a href="#" class="nav_a">新闻动态</a></li>
+                <li><a href="apply.html" class="nav_a">大赛报名</a></li>
+                <li><a href="http://bbs.myhope365.com/" class="nav_a" target="blank">天亮社区</a></li>
+                <li><a href="aboutUs.html" class="nav_a">关于我们</a></li>
+                <li class="navli1">
+                    <button><a href="logIn.html">登录</a></button>
+                </li>
+                <li class="navli2">
+                    <a href="personage.html" class="nav_a">个人中心</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <!-- 头部结束 -->
+
+
+
+    <!-- 注册框 -->
+
+    <div class="mid">
+        <div class="logIn">
+            <h3>注册账号</h3>
+            <ul class="clearFloat">
+                <li class="select active pull-left choice">大学生</li>
+                <li class="select pull-left choice">老师</li>
+                <li class="select pull-right">企业注册</li>
+            </ul>
+            <!-- 学生 -->
+            <form>
+                <div>
+                    <img src="images/头像.png" alt="">
+                    <input type="text" placeholder="请输入用户名(4-20位,禁止特殊符号)" id="loginName">
+                </div>
+                <div>
+                    <img src="images/密码.png" alt="">
+                    <input type="password" placeholder="请输入密码(4-20位)" id="password">
+                </div>
+                <div>
+                    <img src="images/密码.png" alt="">
+                    <input type="password" placeholder="请确认密码(重新输入上面密码)">
+                </div>
+                <div>
+                    <img src="images/头像.png" alt="">
+                    <input type="text" placeholder="(请输入真实姓名)" id="userName">
+                </div>
+                <div>
+                    <img src="images/头像.png" alt="">
+                    <input type="text" placeholder="(请输入身份证)" id="idNumber">
+                </div>
+                <div>
+                    <img src="images/邮箱.png" alt="">
+                    <input type="text" placeholder="请输入邮箱" id="email">
+                </div>
+                <div>
+                    <img src="images/学校.png" alt="">
+                    <input type="text" placeholder="请输入学校" id="school">
+                </div>
+                <div>
+                    <img src="images/学校.png" alt="">
+                    <input type="text" placeholder="请输入专业" id="profession">
+                </div>
+                <div>
+                    <img src="images/学校.png" alt="">
+                    <input type="text" placeholder="请输入年级" id="grade">
+                </div>
+                <div>
+                    <img src="images/手机.png" alt="">
+                    <input type="text" placeholder="请输入手机号" id="phonenumber">
+                </div>
+                <div class="formBox2">
+                    <img src="images/手机.png" alt="">
+                    <input type="text" placeholder="请输入验证码" id="code">
+                    <button type="button" id="codeBtn">获取验证码</button>
+                </div>
+                <div class="registerBox">
+                    <button type="button" id="btn1">注册</button>
+                </div>
+            </form>
+            <!-- 老师 -->
+            <form style="display: none;">
+                <div>
+                    <img src="images/头像.png" alt="">
+                    <input type="text" placeholder="请输入用户名(4-20位,禁止特殊符号)">
+                </div>
+                <div>
+                    <img src="images/密码.png" alt="">
+                    <input type="password" placeholder="请输入密码(4-20位)">
+                </div>
+                <div>
+                    <img src="images/密码.png" alt="">
+                    <input type="password" placeholder="请确认密码(重新输入上面密码)">
+                </div>
+                <div>
+                    <img src="images/头像.png" alt="">
+                    <input type="text" placeholder="(请输入真实姓名)">
+                </div>
+                <div>
+                    <img src="images/头像.png" alt="">
+                    <input type="text" placeholder="(请输入身份证)">
+                </div>
+                <div>
+                    <img src="images/邮箱.png" alt="">
+                    <input type="text" placeholder="请输入邮箱">
+                </div>
+                <div>
+                    <img src="images/学校.png" alt="">
+                    <input type="text" placeholder="请输入学校">
+                </div>
+                <div>
+                    <img src="images/学校.png" alt="">
+                    <input type="text" placeholder="请输入研究方向">
+                </div>
+                <div>
+                    <img src="images/学校.png" alt="">
+                    <input type="text" placeholder="请输入职称">
+                </div>
+                <div>
+                    <img src="images/手机.png" alt="">
+                    <input type="text" placeholder="请输入手机号">
+                </div>
+                <div class="formBox2">
+                    <img src="images/手机.png" alt="">
+                    <input type="text" placeholder="请输入验证码">
+                    <button type="button">获取验证码</button>
+                </div>
+                <div class="registerBox">
+                    <button type="button">注册</button>
+                </div>
+            </form>
+            <div>
+                <a href="logIn.html">登录</a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 底部 -->
+    <footer>
+        <div>
+            <div class="footerLeft">
+                <div class="footBox">
+                    友情链接：
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+
+                <p id="copyright"></p>
+                <p id="tgbh"></p>
+            </div>
+            <div class="footerRight">
+                <img src="images/微信公众号.jpg" alt="微信公众号">
+                <p>微信公众号</p>
+            </div>
+        </div>
+    </footer>
+    <!-- 底部结束 -->
+</body>
+<script src="js/Register.js"></script>
+
+</html>

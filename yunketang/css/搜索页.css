@@ -1,0 +1,537 @@
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.clearfix:after {
+    Content: "";
+    Height: 0;
+    display: block;
+    clear: both;
+}
+
+/* 字体图标 */
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+
+/* 顶部导航 */
+header {
+    min-width: 1200px;
+    margin-bottom: 5px;
+
+}
+
+header .logo {
+    margin-top: 16px;
+    padding: 0;
+}
+
+header .nav {
+    margin-top: 40px;
+    margin-left: -30px;
+}
+
+header .nav li {
+    margin-right: 30px;
+}
+
+header .nav a {
+    font-size: 16px;
+    color: #000;
+}
+
+header .nav .one a {
+    color: #1da57a;
+}
+
+header .nav .two {
+    position: relative;
+}
+
+header .nav .two:hover .classify {
+    display: block;
+}
+
+header .nav .classify {
+    /* border: 1px solid red; */
+    z-index: 100;
+    position: absolute;
+    top: 20px;
+    left: -15px;
+    background-color: #fff;
+    padding: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: none;
+}
+
+header .nav .classify>li {
+    padding: 5px 12px;
+    margin: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+header .nav .classify>li:hover {
+    background-color: #e6fff3;
+}
+
+header .nav .classify>li>a {
+    font-size: 14px;
+    display: block;
+    width: 115px;
+    color: #666;
+}
+
+header .nav .classify>li>a:hover {
+    color: #1da57a;
+}
+
+header .nav .one a::after {
+    content: "";
+    width: 50%;
+    height: 2px;
+    display: block;
+    background: #00cf8c;
+    margin: 5px 0 0 6px;
+}
+
+header .nav a:hover {
+    color: #1da57a;
+}
+
+
+
+
+/* 搜索 */
+.top .search {
+    margin-top: 32px;
+    height: 38px;
+    text-align: center;
+    padding: 0;
+    width: 400px;
+}
+
+.top .search input {
+    width: 80%;
+    height: 100%;
+    border: 1px solid #d9d9d9;
+    outline: none;
+    padding: 0 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    vertical-align: bottom;
+}
+
+.top .search input:hover {
+    border-color: #00cf8c;
+}
+
+.top .search button {
+    width: 20%;
+    height: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -5px;
+    outline: none;
+    border: 0;
+    background-color: #00cf8c;
+    color: #fff;
+    vertical-align: bottom;
+    position: relative;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.top .logIn {
+    /* border: 1px solid red; */
+    margin-top: 26px;
+    text-align: center;
+}
+
+.top .logIn:hover {
+    cursor: pointer;
+}
+
+.top .logIn .shopping {
+    font-size: 16px;
+    vertical-align: middle;
+
+}
+
+.top .logIn .shopping::after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 15px;
+    background-color: #ccc;
+    /* margin-bottom: -3px; */
+    margin: 0 5px -3px;
+}
+
+.top .logIn .loginbtn {
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.top .logIn .user {
+    font-size: 32px;
+    vertical-align: middle;
+}
+
+
+
+.container {
+    width: 1200px;
+
+}
+
+.row {
+    width: 1200px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+/* 中间主体 */
+
+
+
+
+.mid {
+    min-width: 1200px;
+    /* padding-bottom: 40px; */
+    /* background-color: #f4f4f4; */
+    border-top: 1px solid #f2f2f2;
+}
+
+
+.mid .top {
+    width: 100%;
+    padding: 10px 0px 15px;
+    background-color: #fff;
+}
+
+.mid .top a {
+    color: rgba(0, 0, 0, .45);
+}
+
+.mid .top a:hover {
+    color: #23db9b;
+}
+
+.mid.top .string {
+    color: rgba(0, 0, 0, .45);
+    margin: 0 3px;
+}
+
+/* 专题 */
+.midBox {
+    margin-bottom: 2px;
+}
+.subject {
+    padding: 10px;
+    background: #f4f4f4;
+}
+.subject h3 {
+    float: left;
+    line-height: 30px;
+    color: rgba(0,0,0,.5);
+    font-size: 17px;
+    margin: 0;
+}
+.subject > div {
+    margin-left: 50px;
+}
+.subject > div>span{
+    display: inline-block;
+    min-width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 6px;
+    padding: 0 5px;
+}
+.subject span:hover{
+    cursor: pointer;
+}
+.subject > div>.active{
+    color: #fff;
+    background: #00cf8c;
+}
+
+
+
+
+
+/* 课程 */
+
+.curriculum {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 7px;
+    /* min-height: 70px; */
+}
+.curriculum .courseBox {
+    margin-bottom: 20px;
+}
+.courseBox >p{
+    text-align: center;
+    /* border: 1px solid red; */
+    height: 135px;
+    font-size: 22px;
+    color: #999;
+    font-weight: 200;
+    padding-left: 10px;
+    margin: 20px 0;
+}
+.curriculum .courseBox li {
+    width: 20%;
+    float: left;
+    margin-top: 14px;
+    padding: 0 8px;
+}
+@media only screen and (max-width:414px) {
+    .curriculum .courseBox li {
+        width: 50%;
+        float: left;
+        margin-top: 14px;
+        padding: 0 8px;
+    }
+}
+
+.courseBox li .imgBox {
+    width: 100%;
+    height: 134.05px;
+    overflow: hidden;
+}
+
+
+.courseBox li .imgBox>img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.courseBox li .imgBox>img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.courseBox li a {
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.courseBox li .bt {
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 0;
+    white-space: nowrap;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.courseBox li del {
+    color: #999;
+    font-size: 12px;
+}
+
+.courseBox li .course {
+    color: #888;
+    margin-bottom: 0;
+    margin-top: 3px;
+    /* padding: 0; */
+}
+
+/* 免费 */
+.courseBox li .free {
+    color: #00cf8c;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 3px;
+    display: inline-block;
+
+}
+
+/* 收费 */
+.courseBox li .charge {
+    font-size: 16px;
+    color: #f00;
+    margin-bottom: 0;
+    margin-top: 3px;
+    display: inline-block;
+}
+
+/* 限时聚会 */
+.courseBox li .xsjh {
+    display: inline-block;
+    color: #fa8c16;
+    background-color: #fff7e6;
+    height: 22px;
+    border: 1px solid #ffd591;
+    padding: 0 7px;
+    font-size: 12px;
+    line-height: 22px;
+    margin-right: 8px;
+}
+
+
+
+.courseBox .imgBox .img1 {
+    height: 132px;
+}
+
+@media only screen and (max-width:414px) {
+    .courseBox .imgBox .img1 {
+        height: 115px;
+    }
+}
+
+
+
+
+
+
+/* 分页 */
+.paging {
+    margin: 0 0 20px;
+    text-align: center;
+}
+.paging li{
+    border: 1px solid #ddd;
+    /* float: left; */
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.paging li:last-child{
+    margin-right: 0px;
+}
+
+.paging .liColor a {
+    color: rgba(0, 0, 0, .25);
+    font-weight: 400;
+}
+.paging a {
+    color: rgba(0, 0, 0, .65);
+}
+.paging li:hover {
+    cursor: pointer;
+    border-color: #00cf8c;
+}
+.paging .asdasd{
+    cursor: pointer;
+    border-color: #00cf8c;
+}
+.paging li:hover a {
+    color: #00cf8c;
+}
+
+
+
+.not-click {
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 底部 */
+footer {
+    background-color: #444546;
+    color: #999;
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+footer h2 {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 16px 0;
+}
+
+footer a {
+    color: #999;
+    margin-right: 30px;
+}
+
+footer a:hover {
+    color: #1da57a;
+}
+
+footer>.link {
+    min-height: 40px;
+}
+
+footer hr {
+    width: 1000px;
+    margin: 25px auto;
+    border: 1px solid rgb(84, 84, 84);
+    ;
+}

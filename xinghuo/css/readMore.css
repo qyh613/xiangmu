@@ -1,0 +1,34 @@
+
+/* 阅读全文css */
+
+header>.nav .nav_axz {
+    color: #00cf8c;
+    border-bottom: 2px solid #00cf8c;
+}
+.mid {
+    width: 1200px;
+
+    color: #515a6e;
+    margin: 40px auto;
+}
+.mid > img{
+    margin: 20px 50px;
+}
+.mid > h3 {
+    margin: 40px 0 10px;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.mid > .p1 {
+    margin: 20px auto;
+    text-align: center;
+    color: #A9A9A9;
+}
+.mid > .p2 {
+    width: 80%;
+    /* text-indent: 3em; */
+    line-height: 30px;
+    margin: auto auto 120px;
+    font-size: 16px;
+}

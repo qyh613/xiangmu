@@ -1,0 +1,200 @@
+*,ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearFloat:after {
+    Content: "";
+    Height: 0;
+    display: block;
+    clear: both;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+
+/* 头部开始 */
+
+body {
+    min-width: 1200px;
+    max-width: 100%;
+}
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header .logo {
+    padding: 8px 0 0 50px;
+    float: left;
+}
+header .logo a{
+    display: inline-block;
+}
+header .nav {
+    float: right;
+    padding-right: 50px;
+}
+
+header .nav li {
+
+    float: left;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+}
+
+header>.nav li> a {
+    line-height: 60px;
+    width: 60px;
+    height: 50px;
+    color: #515a6e;
+    display: inline-block;
+}
+
+header>.nav .nav_a:hover {
+    color: #00cf8c;
+    border-bottom: 2px solid #00cf8c;
+}
+
+header>.nav button {
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    border: none;
+    margin-top: 15px;
+    line-height: 30px;
+    background-color: #00cf8c;
+    outline: none;
+}
+header>.nav button a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+/* 头部结束 */
+
+
+
+
+/* 底部 */
+footer {
+    width: 100%;
+    height: 140px;
+    padding: 10px;
+    background-color: #00cf8c;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer .footerLeft {
+    width: 100%;
+    float: left;
+}
+
+
+footer .footerLeft .footBox {
+    height: 60px;
+    font-size: 14px;
+    line-height: 60px;
+    margin: auto;
+}
+
+
+
+footer .footerLeft a {
+    font-size: 14px;
+    color: #fff;
+}
+footer .footerLeft a+a {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+footer .footerLeft>p {
+    margin: 0 0 5px;
+    font-size: 13px;
+}
+
+footer .footerRight {
+    width: 240px;
+    margin-top: -95px;
+    float: right;
+}
+
+.footerRight>img {
+    width: 83px;
+}
+
+.footerRight>p {
+    font-size: 13px;
+}
+
+/* 底部结束 */

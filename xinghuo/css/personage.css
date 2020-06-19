@@ -1,0 +1,139 @@
+
+
+
+/* 个人中心 */
+
+header>.nav .nav_axz {
+    color: #00cf8c;
+    border-bottom: 2px solid #00cf8c;
+}
+
+.mid {
+    background: #eceef1;
+    font-size: 16px;
+    width: 100%;
+    padding: 50px 200px;
+
+}
+
+.midBox {
+    padding: 24px 0px;
+    /* min-height: 280px; */
+    background-color: #fff;
+}
+
+.midLeft {
+    width: 200px;
+    min-height: 280px;
+
+    background-color: #fff;
+    /* border: 1px solid red; */
+}
+
+.midLeft li {
+    color: #515a6e;
+    font-size: 14px;
+    padding: 14px 24px;
+    border-right: 2px solid #dcdee2;
+    cursor: pointer;
+}
+
+.midLeft li:hover {
+    color: #2d8cf0;
+}
+
+.midLeft .mlLi {
+    color: #2d8cf0;
+    background: #f0faff;
+    border-right: 2px solid #2d8cf0;
+}
+
+
+/* 右盒子 */
+.midRight {
+    padding: 24px 240px 0 0;
+    min-height: 280px;
+    /* border: 1px solid red; */
+    background-color: #fff;
+}
+
+.midRight .line {
+    margin-bottom: 24px;
+}
+
+
+.midRight .RightBox h4 {
+    color: #515a6e;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 30px;
+    /* text-align: center; */
+}
+
+.midRight .RightBox .fixation input {
+    background-color: #f3f3f3;
+    cursor: not-allowed;
+    color: #ccc;
+}
+
+.midRight .RightBox input {
+    display: inline-block;
+    width: 323px;
+    height: 32px;
+    line-height: 1.5;
+    padding: 4px 10px;
+    font-size: 16px;
+    border: 1px solid #dcdee2;
+    border-radius: 4px;
+    color: #515a6e;
+    background-color: #fff;
+    background-image: none;
+    position: relative;
+    /* cursor: text; */
+}
+
+.midRight .RightBox label {
+    text-align: right;
+    font-weight: 400;
+    width: 100px;
+    color: #515a6e;
+    padding: 2px 12px 0 0;
+}
+.midRight .RightBox .quitBox{
+    text-align: center;
+}
+.midRight .quitBox button {
+    color: #fff;
+    background-color: #2db7f5;
+    padding: 5px 15px;
+    font-size: 12px;
+    outline: none;
+    border: 1px solid #2db7f5;
+    line-height: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.midRight .quitBox .update {
+    margin-right: 55px;
+}
+.midRight .quitBox .update:hover{
+    opacity: 0.7;
+}
+.midRight .quitBox .quit:hover{
+    opacity: 0.7;
+}
+.midRight .RightBox1 {
+    width: 423px;
+    height: 590px;
+}
+
+.midRight .RightBox1 h4 {
+    width: 100%;
+    color: #515a6e;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 30px;
+}

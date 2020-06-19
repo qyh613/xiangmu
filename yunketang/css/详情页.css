@@ -1,0 +1,557 @@
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.clearfix:after {
+    Content: "";
+    Height: 0;
+    display: block;
+    clear: both;
+}
+
+/* 字体图标 */
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+
+/* 顶部导航 */
+header {
+    min-width: 1200px;
+    margin-bottom: 5px;
+
+}
+
+header .logo {
+    margin-top: 16px;
+    padding: 0;
+}
+header .nav {
+    margin-top: 40px;
+    margin-left: -30px;
+}
+header .nav li {
+    margin-right: 30px;
+}
+
+header .nav a {
+    font-size: 16px;
+    color: #000;
+}
+
+header .nav .one a {
+    color: #1da57a;
+}
+
+header .nav .two {
+    position: relative;
+}
+
+header .nav .two:hover .classify {
+    display: block;
+}
+
+header .nav .classify {
+    /* border: 1px solid red; */
+    z-index: 100;
+    position: absolute;
+    top: 20px;
+    left: -15px;
+    background-color: #fff;
+    padding: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: none;
+}
+
+header .nav .classify>li {
+    padding: 5px 12px;
+    margin: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+header .nav .classify>li:hover {
+    background-color: #e6fff3;
+}
+
+header .nav .classify>li>a {
+    font-size: 14px;
+    display: block;
+    width: 115px;
+    color: #666;
+}
+
+header .nav .classify>li>a:hover {
+    color: #1da57a;
+}
+
+header .nav .one a::after {
+    content: "";
+    width: 50%;
+    height: 2px;
+    display: block;
+    background: #00cf8c;
+    margin: 5px 0 0 6px;
+}
+
+header .nav a:hover {
+    color: #1da57a;
+}
+
+
+
+
+/* 搜索 */
+.top .search {
+    margin-top: 32px;
+    height: 38px;
+    text-align: center;
+    padding: 0;
+    width: 400px;
+}
+
+.top .search input {
+    width: 80%;
+    height: 100%;
+    border: 1px solid #d9d9d9;
+    outline: none;
+    padding: 0 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    vertical-align: bottom;
+}
+
+.top .search input:hover {
+    border-color: #00cf8c;
+}
+
+.top .search button {
+    width: 20%;
+    height: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -5px;
+    outline: none;
+    border: 0;
+    background-color: #00cf8c;
+    color: #fff;
+    vertical-align: bottom;
+    position: relative;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.top .logIn {
+    /* border: 1px solid red; */
+    margin-top: 26px;
+    text-align: center;
+}
+
+.top .logIn:hover {
+    cursor: pointer;
+}
+
+.top .logIn .shopping {
+    font-size: 16px;
+    vertical-align: middle;
+
+}
+
+.top .logIn .shopping::after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 15px;
+    background-color: #ccc;
+    /* margin-bottom: -3px; */
+    margin: 0 5px -3px;
+}
+
+.top .logIn .loginbtn {
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.top .logIn .user {
+    font-size: 32px;
+    vertical-align: middle;
+}
+
+
+
+.container{
+    width: 1200px;
+
+}
+.row {
+    width: 1200px;
+    margin: auto;
+}
+
+
+/* 中间主体 */
+.mid {
+    min-width: 1200px;
+    padding-bottom: 40px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #f2f2f2;
+}
+.mid .top {
+    padding: 10px 0px 15px;
+}
+.mid .top a{
+    color: rgba(0, 0, 0, .45);
+}
+
+.mid .top a:hover {
+    color: #23db9b;
+}
+.mid .top .string {
+    color: rgba(0, 0, 0, .45);
+    margin: 0 3px;
+}
+
+
+/* 主体盒子1 */
+.mid .midBox1 {
+    width: 100%;
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+}
+.mid .midBox1 .midimg {
+    padding: 0;
+    width: 33.33333333%;
+    float: left;
+}
+.mid .midimg > img{
+    width: 330px;
+    height: 220px;
+}
+
+
+
+
+
+
+
+/* 中间文本 */
+
+.midBox1 .midText {
+    width: 50%;
+    float: left;
+    
+}
+.midBox1 h3 {
+    font-weight: 400;
+}
+.midBox1 p {
+    height: 70px;
+    color: rgb(0, 207, 140);
+    font-size: 24px;
+}
+.midBox1 button {
+    width: 160px;
+    height: 45px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #00cf8c;
+    border: 0;
+    outline: none;
+}
+.midBox1 .grade {
+    line-height: 30px;
+    margin: 10px 0;
+}
+.midBox1 .grade li{
+    float: left;
+    color: #999;
+    margin-right: 8px;
+
+}
+.midBox1 .grade .gradeli {
+    font-size: 24px;
+    color: gold;
+}
+
+
+
+
+
+
+/* 收藏 */
+.midBox1 .collect {
+    float: left;
+    margin-left: 50px;
+    padding: 0px;
+    text-align: center;
+    color: #999;
+    width: 110px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #999;
+    line-height: 28px;
+}
+.midBox1 .collectColor{
+    border-color: #ffb200;
+    color: #ffb200;
+}
+.midBox1 .collect:hover{
+    cursor: pointer;
+}
+
+
+/* 中间主体 底部 */
+.mid .bottom {
+    width: 100%;
+    background: #fff;
+    padding: 0 20px 20px;
+    margin-top: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.bottom .nav {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.bottom .nav li {
+    float: left;
+    
+    font-weight: 500;
+    margin-right: 30px;
+    padding: 12px 16px;
+    color: rgba(0,0,0,.65);
+}
+.bottom .nav .active {
+    color: #00cf8c;
+    border-bottom: 2px solid #00cf8c;
+}
+
+/* 内容 */
+
+.bottom .details > li {
+    padding: 30px 30px 0;
+}
+.bottom .details li h3 {
+    font-size: 22px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 40px;
+}
+.bottom .details li button {
+    height: 30px;
+    width: 80px;
+    float: right;
+    font-size: 14px;
+    color: #fff;
+    border: 0;
+    outline: none;
+    margin-top: 5px;
+    line-height: 30px;
+    background-color: rgb(45, 183, 245);
+}
+.bottom .details li dl {
+    height: 50px;
+    line-height: 30px;
+    padding: 10px 20px;
+    background: #f2f2f2;
+    margin: 10px 0;
+    color: rgba(0,0,0,.65);
+    font-weight: 500;
+}
+.bottom .details li dl:hover{
+    color: #00cf8c;
+    cursor: pointer;
+}
+.bottom .details li .empty {
+    display: inline-block;
+    width: 8px;
+}
+.bottom .details li .play {
+    font-size: 20px;
+}
+.bottom .details li .view{
+
+    font-size: 14px;
+    display: none;
+}
+.details .pl > ul {
+    margin: 20px 0 10px;
+}
+.details .pl li {
+    float: left;
+    margin-right: 8px;
+    font-size: 22px;
+    color: gold;
+    line-height: 17px;
+}
+.details .pl li>span {
+    margin-left: 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.65);;
+}
+.details .textk textarea {
+    height: 136px;
+    width: 100%;
+    font-variant: tabular-nums;
+    padding: 4px 11px;
+    font-size: 14px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    resize: none;
+}
+
+.details .textk .btn1 {
+    width: 88px;
+    height: 32px;
+
+    margin: 20px 0px 0px;
+    color: #fff;
+    background-color:#00cf8c;
+    border: 0;
+    outline: none;
+    padding: 0 15px;
+    border-radius: 2px;
+}
+
+.details li hr{
+    border-color:rgb(232, 232, 232);
+}
+
+/* 用户评论信息 */
+.userpl {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+}
+.userpl + .userpl{
+    margin-top: 20px;
+}
+.userpl .message div{
+    width: 50%;
+}
+.userpl .message .userimg {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.userpl .message .userimg img{
+    width: 100%;
+    height: 100%;
+}
+.userpl .message .lipl{
+    float: left;
+    color: gold;
+    font-size: 22px;
+}
+.userpl .message span {
+    vertical-align: middle;
+    margin: 0 10px;
+
+}
+
+.userpl .userText {
+    padding: 10px 0px 10px 47px;
+}
+
+.userpl .userTime{
+    text-align: right;
+    color: #999;
+}
+.userpl .userTime > span{
+    color: #777;
+    margin-left: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 底部 */
+footer {
+    background-color: #444546;
+    color: #999;
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+footer h2 {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 16px 0;
+}
+
+footer a {
+    color: #999;
+    margin-right: 30px;
+}
+
+footer a:hover {
+    color: #1da57a;
+}
+
+footer>.link {
+    min-height: 40px;
+}
+
+footer hr {
+    width: 1000px;
+    margin: 25px auto;
+    border: 1px solid rgb(84, 84, 84);
+    ;
+}

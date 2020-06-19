@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/overall.css">
+    <link rel="stylesheet" href="css/logIn.css">
+    <script src="lib/jQuery/jquery-3.4.1.js"></script>
+    <title>星火创新创业服务平台</title>
+</head>
+<!-- 登录页 -->
+
+<body>
+    <!-- 头部 -->
+    <header>
+
+        <!-- logo -->
+        <div class="logo">
+            <a href="homePage.html"><img src="images/logo.png"></a>
+        </div>
+
+        <!-- 导航 -->
+        <nav class="nav">
+            <ul class="clearFloat">
+                <li><a href="homePage.html" class="nav_a">新闻动态</a></li>
+                <li><a href="apply.html" class="nav_a">大赛报名</a></li>
+                <li><a href="http://bbs.myhope365.com/" class="nav_a" target="blank">天亮社区</a></li>
+                <li><a href="aboutUs.html" class="nav_a">关于我们</a></li>
+                <li class="navli1">
+                    <button><a href="logIn.html">登录</a></button>
+                </li>
+                <li class="navli2">
+                    <a href="personage.html" class="nav_a">个人中心</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <!-- 头部结束 -->
+
+
+    <!-- 登录框 -->
+    <div class="mid">
+        <div class="logIn">
+            <h3>星火创新创业服务平台</h3>
+            <ul class="clearFloat">
+                <li class="select active pull-left">账号登录</li>
+                <li class="select pull-right">手机登录</li>
+            </ul>
+            <div class="logInBox1">
+                <form>
+                    <div>
+                        <img src="images/头像.png" alt="">
+                        <input type="text" placeholder="请输入用户名" id="inp1">
+                    </div>
+                    <div>
+                        <img src="images/密码.png" alt="">
+                        <input type="password" placeholder="请输入密码" id="inp2">
+                    </div>
+                    <div>
+                        <button type="button" id="login">登录</button>
+                    </div>
+                </form>
+            </div>
+            <div class="logInBox1" style="display: none;">
+                <form required>
+                    <div>
+                        <img src="images/头像.png" alt="">
+                        <input type="text" placeholder="请输入手机号" id="inp3">
+                    </div>
+                    <div class="box2">
+                        <img src="images/手机.png" alt="">
+                        <input type="text" placeholder="请输入验证码" id="inp4">
+                        <button id="authorization" type="button">获取验证码</button>
+                    </div>
+                    <div>
+                        <button id="login2" type="button">登录</button>
+                    </div>
+                </form>
+                <!-- <iframe id="iframe" name="iframe" style="display:none;"></iframe> -->
+            </div>
+            <div>
+                <a href="ForgetPassword.html">忘记密码</a>
+                <a href="Register.html" class="enroll pull-right">注册</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 底部 -->
+    <footer>
+        <div>
+            <div class="footerLeft">
+                <div class="footBox">
+                    友情链接：
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </div>
+
+                <p id="copyright"></p>
+                <p id="tgbh"></p>
+            </div>
+            <div class="footerRight">
+                <img src="images/微信公众号.jpg" alt="微信公众号">
+                <p>微信公众号</p>
+            </div>
+        </div>
+    </footer>
+    <!-- 底部结束 -->
+</body>
+<script src="js/logIn.js"></script>
+
+</html>
